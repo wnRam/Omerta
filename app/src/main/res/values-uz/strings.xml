@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Omerta</string>
+    <string name="app_tagline">Sukunat qonuni. Soyalar o\'yini.</string>
+
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_uzbek">O\'zbek</string>
+
+    <string name="team_town">Shahar</string>
+    <string name="team_mafia">Mafiya</string>
+    <string name="team_neutral">Neytral</string>
+
+    <string name="settings_title">Sozlamalar</string>
+    <string name="settings_language">Til</string>
+    <string name="settings_theme">Mavzu</string>
+    <string name="settings_theme_system">Tizim bo\'yicha</string>
+    <string name="settings_theme_dark">Qorong\'u</string>
+    <string name="settings_theme_light">Yorug\'</string>
+    <string name="settings_about_title">Ilova haqida</string>
+    <string name="settings_about_blurb">Omerta — mafiozi sukunat qonuni. Uy sharoitidagi ijtimoiy taxminlash o\'yinlari uchun hamroh ilova. Internet kerak emas: bitta telefonda navbat bilan o\'ynang yoki Wi-Fi orqali ulanin.</string>
+
+    <string name="home_logo_word">Omerta</string>
+    <string name="home_logo_tagline">Sukunat Qonuni</string>
+    <string name="home_card_create_title">Xona yaratish</string>
+    <string name="home_card_create_subtitle">Yetakchi sifatida yangi o\'yin boshlang</string>
+    <string name="home_card_join_title">Xonaga kirish</string>
+    <string name="home_card_join_subtitle">Kodni kiriting yoki QR ni skanerlang</string>
+    <string name="home_card_howto_title">Qanday o\'ynash</string>
+    <string name="home_card_howto_subtitle">Qoidalar va ilova qo\'llanmasi</string>
+    <string name="home_footer_version">v%1$s</string>
+
+    <string name="howtoplay_title">Qanday o\'ynash</string>
+    <string name="create_room_title">Xona yaratish</string>
+    <string name="join_room_title">Xonaga kirish</string>
+    <string name="rule_setup_title">Qoidalar</string>
+    <string name="role_editor_title">Maxsus rol</string>
+    <string name="lobby_title">Lobbi</string>
+    <string name="join_qr_title">QR skaner</string>
+
+    <string name="mode_pick_heading">Rejimni tanlang</string>
+    <string name="mode_pick_subhead">Lokal rejim — bitta telefon navbatda. LAN — har bir o\'yinchining o\'z telefoni bitta Wi-Fi tarmog\'ida.</string>
+    <string name="mode_local_title">Lokal rejim</string>
+    <string name="mode_local_desc">Bitta telefon davra bo\'ylab yuriydi. Har o\'yinchi rolini ko\'rib, navbatdagiga uzatadi.</string>
+    <string name="mode_local_best_for">Bitta xonadagi 3–10 o\'yinchi uchun</string>
+    <string name="mode_lan_title">LAN rejimi</string>
+    <string name="mode_lan_desc">Yetakchi o\'yinni boshqaradi, qolganlar Wi-Fi orqali o\'z telefonlaridan ulanadi.</string>
+    <string name="mode_lan_best_for">5–16 o\'yinchi uchun, har biri o\'z telefonida</string>
+    <string name="action_continue">Davom etish</string>
+    <string name="action_delete">O\'chirish</string>
+
+    <string name="rule_seats_count">%1$d o\'rin</string>
+    <string name="rule_seats_ready">O\'ynashga tayyor</string>
+    <string name="rule_seats_short">Boshlash uchun yana %1$d o\'rin qo\'shing</string>
+    <string name="rule_start">O\'yinni boshlash</string>
+    <string name="rule_start_disabled">Yana %1$d kerak</string>
+    <string name="roles_classic">Klassik rollar</string>
+    <string name="roles_extended">Kengaytirilgan rollar</string>
+    <string name="roles_custom">Maxsus rollar</string>
+    <string name="roles_custom_empty">Hozircha maxsus rol yo\'q.</string>
+    <string name="roles_custom_add">Yangi rol yaratish</string>
+
+    <string name="phase_timers_title">Bosqich taymerlari</string>
+    <string name="phase_night">Tun</string>
+    <string name="phase_day">Kun</string>
+    <string name="phase_voting">Ovoz berish</string>
+    <string name="phase_other">Bosqich</string>
+    <string name="phase_timer_seconds">%1$d soniya</string>
+    <string name="phase_timer_infinite">∞ taymersiz</string>
+
+    <string name="host_options_title">Yetakchi tanlovlari</string>
+    <string name="host_option_referee">Barcha rollarni ko\'rish (hakam rejimi)</string>
+    <string name="host_option_skip_reveal">Rol ochilishini o\'tkazib yuborishga ruxsat</string>
+
+    <string name="role_editor_unnamed">Nomsiz rol</string>
+    <string name="role_editor_names">Rol nomi</string>
+    <string name="role_editor_descriptions">Tavsif</string>
+    <string name="role_editor_team">Jamoa</string>
+    <string name="role_editor_icon">Belgi</string>
+    <string name="role_editor_save">Rolni saqlash</string>
+
+    <string name="lobby_room_code">Xona kodi</string>
+    <string name="lobby_qr">QR kod</string>
+    <string name="lobby_copy">Nusxa olish</string>
+    <string name="lobby_share">Ulashish</string>
+    <string name="lobby_roles_in_play">O\'yindagi rollar</string>
+    <string name="lobby_no_roles">Rol hali sozlanmagan.</string>
+    <string name="lobby_players">O\'yinchilar (%1$d)</string>
+    <string name="lobby_kick">Chiqarish</string>
+    <string name="lobby_kick_title">O\'yinchini chiqarib yuborilsinmi?</string>
+    <string name="lobby_kick_body">%1$s bu o\'yindan olib tashlanadi.</string>
+    <string name="lobby_start">O\'yinni boshlash</string>
+    <string name="lobby_waiting_for_players">Yana %1$d o\'yinchi kutilmoqda</string>
+
+    <string name="join_tab_code">Kod kiritish</string>
+    <string name="join_tab_qr">QR skanerlash</string>
+    <string name="join_code_prompt">Yetakchining ekranidan olti belgili kodni kiriting.</string>
+    <string name="join_qr_prompt">Yetakchining QR kodiga kamerani qarating.</string>
+    <string name="join_qr_open_scanner">Skanerni ochish</string>
+    <string name="join_action">Xonaga kirish</string>
+    <string name="camera_perm_rationale">QR kodni skanerlash uchun Omerta ga kameradan foydalanish ruxsati kerak. Ruxsat bering va qayta urinib ko\'ring.</string>
+    <string name="camera_perm_request">Xona QR kodlarini skanerlash uchun Omerta ga kamerani ishlatishga ruxsat bering.</string>
+    <string name="camera_perm_grant">Kameraga ruxsat berish</string>
+    <!-- ADDED: camera error overlay -->
+    <string name="camera_error_unavailable">Kamera mavjud emas</string>
+
+    <string name="reveal_progress">%2$d dan %1$d</string>
+    <string name="reveal_pass_to">Telefonni %1$s ga uzating va kartani bosing.</string>
+    <string name="reveal_pass_next">Tayyor — keyingiga uzating</string>
+    <string name="reveal_done_all">Tunni boshlash</string>
+
+    <string name="phase_round">%1$d-raund</string>
+    <string name="phase_night_sub">Shahar uxlaydi. Mafiya uyg\'onadi.</string>
+    <string name="phase_day_sub">Shahar uyg\'onadi. Tunda nima bo\'lganini muhokama qiling.</string>
+    <string name="phase_voting_sub">Ovoz bering: kimni chiqarib tashlaysiz?</string>
+    <string name="phase_other_sub">Davom etish uchun yetakchi panelidan foydalaning.</string>
+    <string name="phase_paused">Pauza</string>
+    <string name="phase_players_button">%1$d / %2$d tirik</string>
+    <string name="phase_host_controls">Yetakchi paneli</string>
+    <string name="phase_pause">Pauza</string>
+    <string name="phase_resume">Davom etish</string>
+    <string name="phase_skip">Bosqichni o\'tkazish</string>
+    <string name="phase_end_game">O\'yinni tugatish</string>
+    <string name="phase_alive_count">%2$d dan %1$d tirik</string>
+    <string name="phase_player_eliminated">Chiqarilgan</string>
+    <string name="phase_player_alive">Tirik</string>
+    <string name="phase_end_confirm_title">O\'yin tugasinmi?</string>
+    <string name="phase_end_confirm_body">Raund yopiladi va barcha o\'yinchilarning rollari ochiladi.</string>
+    <!-- ADDED: back-press confirmation -->
+    <string name="phase_leave_confirm_title">O\'yinni tark etasizmi?</string>
+    <string name="phase_leave_confirm_body">O\'yin hali davom etmoqda. Hozir chiqsangiz, barcha yutuqlar yo\'qoladi.</string>
+
+    <string name="endgame_town_wins">Shahar g\'olib</string>
+    <string name="endgame_mafia_wins">Mafiya g\'olib</string>
+    <string name="endgame_neutral_wins">Yolg\'iz g\'olib</string>
+    <string name="endgame_undecided">O\'yin tugadi</string>
+    <string name="endgame_reveal_title">Ochilgan rollar</string>
+    <string name="endgame_replay">Qayta o\'ynash</string>
+    <string name="endgame_home">Bosh sahifaga</string>
+    <string name="endgame_role_unknown">Rol berilmagan</string>
+    <string name="endgame_stat_rounds">Raundlar: %1$d</string>
+    <string name="endgame_stat_elim">Chiqarilgan: %1$d</string>
+    <string name="endgame_stat_majority_town">Shahar ko\'pchilik</string>
+    <string name="endgame_stat_majority_mafia">Mafiya ko\'pchilik</string>
+
+    <string name="howto_tab_rules">O\'yin qoidalari</string>
+    <string name="howto_tab_guide">Ilova qo\'llanmasi</string>
+    <string name="howto_panel_progress">%2$d dan %1$d sahna</string>
+    <string name="howto_skip">O\'tkazib yuborish</string>
+
+    <string name="story_setup_title">Tayyorgarlik</string>
+    <string name="story_setup_body">Hamma davra bo\'lib o\'tiradi. Hech kim kim ekanini bilmaydi.</string>
+    <string name="story_night_title">Tun tushadi</string>
+    <string name="story_night_body">Shahar uxlaydi. Mafiya jimgina uyg\'onadi.</string>
+    <string name="story_mafia_title">Mafiya tanlaydi</string>
+    <string name="story_mafia_body">Qorong\'uda mafiya bu tungi qurbonni jimgina ko\'rsatadi.</string>
+    <string name="story_doctor_title">Shifokor harakat qiladi</string>
+    <string name="story_doctor_body">Shifokor bitta o\'yinchini saqlashi mumkin — hatto o\'zini ham.</string>
+    <string name="story_sheriff_title">Sherif tekshiradi</string>
+    <string name="story_sheriff_body">Sherif bitta o\'yinchini tekshirib, uning kim tomonida ekanini biladi.</string>
+    <string name="story_day_title">Tong otadi</string>
+    <string name="story_day_body">Shahar uyg\'onadi. Mafiya tanlagan va shifokor saqlamagan o\'yinchi yo\'q.</string>
+    <string name="story_vote_title">Ovoz berish</string>
+    <string name="story_vote_body">Muhokama qiling. Ayblangizing. Ovoz bering — bitta o\'yinchi chiqib ketadi.</string>
+    <string name="story_win_title">G\'alaba shartlari</string>
+    <string name="story_win_body">Mafiya yo\'q bo\'lganda shahar g\'olib. Mafiya soni qolganlarga teng yoki ko\'p bo\'lganda — mafiya g\'olib.</string>
+    <string name="story_ref_title">Qisqacha ma\'lumot</string>
+    <string name="story_ref_body">Lobbida rol belgisiga bosing, uning to\'liq qobiliyatini o\'qing.</string>
+
+    <string name="guide_create_title">Xona yarating</string>
+    <string name="guide_create_body">Bosh sahifada "Xona yaratish" ni bosing.</string>
+    <string name="guide_mode_title">Rejimni tanlang</string>
+    <string name="guide_mode_body">Lokal — bitta telefon. LAN — har birga bittadan.</string>
+    <string name="guide_roles_title">Rollarni sozlang</string>
+    <string name="guide_roles_body">Har turdagi rolning sonini tanlash uchun +/− tugmasini bosing.</string>
+    <string name="guide_code_title">Kodni ulashing</string>
+    <string name="guide_code_body">Lobbida olti belgili kod va QR kod paydo bo\'ladi.</string>
+    <string name="guide_join_title">O\'yinchilar qo\'shiladi</string>
+    <string name="guide_join_body">O\'yinchilar kodni kiritadi yoki QR ni skanerlaydi. Ular lobbida paydo bo\'ladi.</string>
+    <string name="guide_reveal_title">Rol ochilishi</string>
+    <string name="guide_reveal_body">Har o\'yinchi kartani bosib o\'z rolini maxfiy biladi.</string>
+    <string name="guide_track_title">O\'yinni kuzating</string>
+    <string name="guide_track_body">Bosqich taymerini kuzating. Chiqib ketganlarni o\'yinchilar ro\'yxatida belgilang.</string>
+
+    <!-- FIXED: removed obsolete stub strings -->
+
+    <string name="action_back">Orqaga</string>
+    <string name="action_close">Yopish</string>
+    <string name="action_cancel">Bekor qilish</string>
+    <string name="action_confirm">Tasdiqlash</string>
+
+    <string name="cd_icon_crown">Yetakchi toji</string>
+    <string name="cd_icon_door">Eshik</string>
+    <string name="cd_icon_book">Ochiq kitob</string>
+    <string name="cd_icon_settings">Sozlamalar tishlisi</string>
+    <string name="cd_icon_back">Orqaga strelka</string>
+    <string name="cd_icon_close">Krestik</string>
+    <string name="cd_icon_language">Globus</string>
+    <string name="cd_icon_theme_light">Quyosh</string>
+    <string name="cd_icon_theme_dark">Oy</string>
+    <string name="cd_icon_checkmark">Belgi</string>
+    <string name="cd_icon_warning">Ogohlantirish</string>
+</resources>

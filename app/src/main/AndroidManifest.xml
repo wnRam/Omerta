@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- LAN: socket + NSD discovery + multicast for service browsing -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+
+    <!-- QR scan -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <!-- Per-app locale support (Android 13+ uses LocaleManager; older falls back
+         to our in-Compose LocalContext wrapping in LocaleProvider). -->
     <application
+        android:name=".OmertaApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -10,16 +24,25 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Omerta">
+        android:theme="@style/Theme.Omerta"
+        android:localeConfig="@xml/locales_config">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|locale|layoutDirection|uiMode|fontScale">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--
+            AUDIT FIX: removed the `preloaded_fonts` meta-data — that mechanism
+            is for the legacy View `androidx.core.provider.FontsContractCompat`
+            preload path. Compose's `GoogleFont` resolves on demand via
+            `compose-ui-text-google-fonts`, no manifest entry needed. The
+            (also-deleted) `res/values/preloaded_fonts.xml` array was empty
+            anyway, which was deceptive.
+        -->
     </application>
 
 </manifest>

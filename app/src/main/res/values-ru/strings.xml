@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Омерта</string>
+    <string name="app_tagline">Кодекс молчания. Игра теней.</string>
+
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_uzbek">O\'zbek</string>
+
+    <string name="team_town">Город</string>
+    <string name="team_mafia">Мафия</string>
+    <string name="team_neutral">Нейтрал</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_theme_system">Системная</string>
+    <string name="settings_theme_dark">Тёмная</string>
+    <string name="settings_theme_light">Светлая</string>
+    <string name="settings_about_title">О приложении</string>
+    <string name="settings_about_blurb">Омерта — мафиозный кодекс молчания. Приложение-компаньон для домашних игр на социальную дедукцию. Интернет не нужен: передавайте телефон по кругу или соединяйтесь по Wi-Fi.</string>
+
+    <string name="home_logo_word">Омерта</string>
+    <string name="home_logo_tagline">Кодекс молчания</string>
+    <string name="home_card_create_title">Создать комнату</string>
+    <string name="home_card_create_subtitle">Начать новую игру в роли ведущего</string>
+    <string name="home_card_join_title">Войти в комнату</string>
+    <string name="home_card_join_subtitle">Введите код или отсканируйте QR</string>
+    <string name="home_card_howto_title">Как играть</string>
+    <string name="home_card_howto_subtitle">Правила и обзор приложения</string>
+    <string name="home_footer_version">v%1$s</string>
+
+    <string name="howtoplay_title">Как играть</string>
+    <string name="create_room_title">Создать комнату</string>
+    <string name="join_room_title">Войти в комнату</string>
+    <string name="rule_setup_title">Правила</string>
+    <string name="role_editor_title">Своя роль</string>
+    <string name="lobby_title">Лобби</string>
+    <string name="join_qr_title">Сканер QR</string>
+
+    <string name="mode_pick_heading">Выберите режим</string>
+    <string name="mode_pick_subhead">Локальный режим — один телефон по кругу. LAN-режим — у каждого игрока свой телефон в одной сети Wi-Fi.</string>
+    <string name="mode_local_title">Локальный режим</string>
+    <string name="mode_local_desc">Один телефон передаётся по кругу. Каждый игрок открывает свою роль и передаёт дальше.</string>
+    <string name="mode_local_best_for">Лучше всего для 3–10 игроков в одной комнате</string>
+    <string name="mode_lan_title">LAN-режим</string>
+    <string name="mode_lan_desc">Ведущий запускает игру; все остальные присоединяются со своих телефонов по Wi-Fi.</string>
+    <string name="mode_lan_best_for">Лучше всего для 5–16 игроков, у каждого свой телефон</string>
+    <string name="action_continue">Продолжить</string>
+    <string name="action_delete">Удалить</string>
+
+    <string name="rule_seats_count">%1$d мест</string>
+    <string name="rule_seats_ready">Готово к игре</string>
+    <string name="rule_seats_short">Добавьте ещё %1$d место (мест), чтобы начать</string>
+    <string name="rule_start">Начать игру</string>
+    <string name="rule_start_disabled">Нужно ещё %1$d</string>
+    <string name="roles_classic">Классические роли</string>
+    <string name="roles_extended">Расширенные роли</string>
+    <string name="roles_custom">Свои роли</string>
+    <string name="roles_custom_empty">Своих ролей пока нет.</string>
+    <string name="roles_custom_add">Создать новую роль</string>
+
+    <string name="phase_timers_title">Таймеры фаз</string>
+    <string name="phase_night">Ночь</string>
+    <string name="phase_day">День</string>
+    <string name="phase_voting">Голосование</string>
+    <string name="phase_other">Фаза</string>
+    <string name="phase_timer_seconds">%1$d с</string>
+    <string name="phase_timer_infinite">∞ без таймера</string>
+
+    <string name="host_options_title">Опции ведущего</string>
+    <string name="host_option_referee">Видеть все роли (режим судьи)</string>
+    <string name="host_option_skip_reveal">Разрешить пропуск открытия роли</string>
+
+    <string name="role_editor_unnamed">Без названия</string>
+    <string name="role_editor_names">Название роли</string>
+    <string name="role_editor_descriptions">Описание</string>
+    <string name="role_editor_team">Принадлежность</string>
+    <string name="role_editor_icon">Иконка</string>
+    <string name="role_editor_save">Сохранить роль</string>
+
+    <string name="lobby_room_code">Код комнаты</string>
+    <string name="lobby_qr">QR-код</string>
+    <string name="lobby_copy">Копировать</string>
+    <string name="lobby_share">Поделиться</string>
+    <string name="lobby_roles_in_play">Роли в игре</string>
+    <string name="lobby_no_roles">Роли ещё не настроены.</string>
+    <string name="lobby_players">Игроки (%1$d)</string>
+    <string name="lobby_kick">Удалить</string>
+    <string name="lobby_kick_title">Удалить игрока?</string>
+    <string name="lobby_kick_body">%1$s будет удалён из этой игры.</string>
+    <string name="lobby_start">Начать игру</string>
+    <string name="lobby_waiting_for_players">Ждём ещё %1$d игрока(ов)</string>
+
+    <string name="join_tab_code">Ввести код</string>
+    <string name="join_tab_qr">Сканировать QR</string>
+    <string name="join_code_prompt">Введите шестизначный код с экрана ведущего.</string>
+    <string name="join_qr_prompt">Наведите камеру на QR-код ведущего.</string>
+    <string name="join_qr_open_scanner">Открыть сканер</string>
+    <string name="join_action">Войти в комнату</string>
+    <string name="camera_perm_rationale">Омерте нужен доступ к камере для сканирования QR-кодов. Разрешите и попробуйте снова.</string>
+    <string name="camera_perm_request">Разрешите Омерте использовать камеру, чтобы сканировать QR-коды комнат.</string>
+    <string name="camera_perm_grant">Разрешить камеру</string>
+    <!-- ADDED: camera error overlay -->
+    <string name="camera_error_unavailable">Камера недоступна</string>
+
+    <string name="reveal_progress">%1$d из %2$d</string>
+    <string name="reveal_pass_to">Передайте телефон игроку %1$s и нажмите на карту.</string>
+    <string name="reveal_pass_next">Готово — передать следующему</string>
+    <string name="reveal_done_all">Начать ночь</string>
+
+    <string name="phase_round">Раунд %1$d</string>
+    <string name="phase_night_sub">Город спит. Мафия просыпается.</string>
+    <string name="phase_day_sub">Город пробуждается. Обсудите, что случилось ночью.</string>
+    <string name="phase_voting_sub">Голосуйте: кого вы убираете?</string>
+    <string name="phase_other_sub">Используйте панель ведущего, чтобы продолжить.</string>
+    <string name="phase_paused">Пауза</string>
+    <string name="phase_players_button">%1$d / %2$d живы</string>
+    <string name="phase_host_controls">Панель ведущего</string>
+    <string name="phase_pause">Пауза</string>
+    <string name="phase_resume">Продолжить</string>
+    <string name="phase_skip">Пропустить фазу</string>
+    <string name="phase_end_game">Завершить игру</string>
+    <string name="phase_alive_count">%1$d из %2$d ещё живы</string>
+    <string name="phase_player_eliminated">Выбыл</string>
+    <string name="phase_player_alive">Живой</string>
+    <string name="phase_end_confirm_title">Завершить игру?</string>
+    <string name="phase_end_confirm_body">Раунд закроется и роли всех игроков откроются.</string>
+    <!-- ADDED: back-press confirmation -->
+    <string name="phase_leave_confirm_title">Покинуть игру?</string>
+    <string name="phase_leave_confirm_body">Игра ещё идёт. Если выйти сейчас, весь прогресс будет потерян.</string>
+
+    <string name="endgame_town_wins">Город побеждает</string>
+    <string name="endgame_mafia_wins">Мафия побеждает</string>
+    <string name="endgame_neutral_wins">Одиночка побеждает</string>
+    <string name="endgame_undecided">Игра окончена</string>
+    <string name="endgame_reveal_title">Открытые роли</string>
+    <string name="endgame_replay">Сыграть снова</string>
+    <string name="endgame_home">На главную</string>
+    <string name="endgame_role_unknown">Роль не назначена</string>
+    <string name="endgame_stat_rounds">Раундов: %1$d</string>
+    <string name="endgame_stat_elim">Выбыло: %1$d</string>
+    <string name="endgame_stat_majority_town">Большинство — город</string>
+    <string name="endgame_stat_majority_mafia">Большинство — мафия</string>
+
+    <string name="howto_tab_rules">Правила игры</string>
+    <string name="howto_tab_guide">Гид по приложению</string>
+    <string name="howto_panel_progress">Сцена %1$d из %2$d</string>
+    <string name="howto_skip">Пропустить</string>
+
+    <string name="story_setup_title">Подготовка</string>
+    <string name="story_setup_body">Все садятся в круг. Никто не знает, кто есть кто.</string>
+    <string name="story_night_title">Наступает ночь</string>
+    <string name="story_night_body">Город засыпает. Тихо просыпается мафия.</string>
+    <string name="story_mafia_title">Мафия выбирает</string>
+    <string name="story_mafia_body">В темноте мафия молча указывает на сегодняшнюю жертву.</string>
+    <string name="story_doctor_title">Действует доктор</string>
+    <string name="story_doctor_body">Доктор может спасти одного игрока — даже себя.</string>
+    <string name="story_sheriff_title">Шериф проверяет</string>
+    <string name="story_sheriff_body">Шериф выбирает игрока и узнаёт, на чьей он стороне.</string>
+    <string name="story_day_title">Рассвет</string>
+    <string name="story_day_body">Город просыпается. Если доктор не спас — кого-то больше нет.</string>
+    <string name="story_vote_title">Голосование</string>
+    <string name="story_vote_body">Обсудите. Подозревайте. Голосуйте — и один игрок выбывает.</string>
+    <string name="story_win_title">Условия победы</string>
+    <string name="story_win_body">Город побеждает, когда нет ни одного мафиози. Мафия — когда её не меньше, чем остальных.</string>
+    <string name="story_ref_title">Краткая справка</string>
+    <string name="story_ref_body">Нажмите на иконку роли в лобби, чтобы прочитать её способности.</string>
+
+    <string name="guide_create_title">Создайте комнату</string>
+    <string name="guide_create_body">Нажмите «Создать комнату» на главном экране.</string>
+    <string name="guide_mode_title">Выберите режим</string>
+    <string name="guide_mode_body">Локальный — один телефон. LAN — по телефону на каждого.</string>
+    <string name="guide_roles_title">Настройте роли</string>
+    <string name="guide_roles_body">Нажимайте +/−, чтобы выбрать сколько ролей каждого типа в игре.</string>
+    <string name="guide_code_title">Поделитесь кодом</string>
+    <string name="guide_code_body">В лобби появится шестизначный код и QR-код.</string>
+    <string name="guide_join_title">Игроки входят</string>
+    <string name="guide_join_body">Игроки вводят код или сканируют QR. Они появляются в лобби.</string>
+    <string name="guide_reveal_title">Открытие роли</string>
+    <string name="guide_reveal_body">Каждый игрок касается карты, чтобы узнать свою роль в тайне.</string>
+    <string name="guide_track_title">Следите за игрой</string>
+    <string name="guide_track_body">Смотрите на таймер фазы. Отмечайте выбывших в списке игроков.</string>
+
+    <!-- FIXED: removed obsolete stub strings -->
+
+    <string name="action_back">Назад</string>
+    <string name="action_close">Закрыть</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_confirm">Подтвердить</string>
+
+    <string name="cd_icon_crown">Корона ведущего</string>
+    <string name="cd_icon_door">Дверь</string>
+    <string name="cd_icon_book">Открытая книга</string>
+    <string name="cd_icon_settings">Шестерёнка настроек</string>
+    <string name="cd_icon_back">Стрелка назад</string>
+    <string name="cd_icon_close">Крестик</string>
+    <string name="cd_icon_language">Глобус</string>
+    <string name="cd_icon_theme_light">Солнце</string>
+    <string name="cd_icon_theme_dark">Луна</string>
+    <string name="cd_icon_checkmark">Галочка</string>
+    <string name="cd_icon_warning">Предупреждение</string>
+</resources>

@@ -1,3 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Omerta</string>
+    <string name="app_tagline">A code of silence. A game of shadows.</string>
+
+    <!-- ============ Languages ============ -->
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_uzbek">O\'zbek</string>
+
+    <!-- ============ Teams ============ -->
+    <string name="team_town">Town</string>
+    <string name="team_mafia">Mafia</string>
+    <string name="team_neutral">Neutral</string>
+
+    <!-- ============ Settings ============ -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_about_title">About</string>
+    <string name="settings_about_blurb">Omerta — the Mafia code of silence. A companion app for living-room games of social deduction. No internet required; pass-and-play on one phone or sync across a Wi-Fi network.</string>
+
+    <!-- ============ Home Screen ============ -->
+    <string name="home_logo_word">Omerta</string>
+    <string name="home_logo_tagline">A Code of Silence</string>
+    <string name="home_card_create_title">Create Room</string>
+    <string name="home_card_create_subtitle">Start a new game as host</string>
+    <string name="home_card_join_title">Join Room</string>
+    <string name="home_card_join_subtitle">Enter a code or scan QR</string>
+    <string name="home_card_howto_title">How to Play</string>
+    <string name="home_card_howto_subtitle">Rules &amp; app guide</string>
+    <string name="home_footer_version">v%1$s</string>
+
+    <!-- ============ Route titles ============ -->
+    <string name="howtoplay_title">How to Play</string>
+    <string name="create_room_title">Create Room</string>
+    <string name="join_room_title">Join Room</string>
+    <string name="rule_setup_title">Rules</string>
+    <string name="role_editor_title">Custom Role</string>
+    <string name="lobby_title">Lobby</string>
+    <string name="join_qr_title">Scan QR</string>
+
+    <!-- ============ Mode selection ============ -->
+    <string name="mode_pick_heading">Pick a mode</string>
+    <string name="mode_pick_subhead">Local Mode passes one phone around the table. LAN Mode lets every player use their own device over Wi-Fi.</string>
+    <string name="mode_local_title">Local Mode</string>
+    <string name="mode_local_desc">One phone passed around the table. Each player taps to reveal their role, then hands it on.</string>
+    <string name="mode_local_best_for">Best for 3–10 players in one room</string>
+    <string name="mode_lan_title">LAN Mode</string>
+    <string name="mode_lan_desc">Host runs the game; everyone joins from their own phone over the same Wi-Fi.</string>
+    <string name="mode_lan_best_for">Best for 5–16 players, each on their own device</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- ============ Rule setup ============ -->
+    <string name="rule_seats_count">%1$d seats</string>
+    <string name="rule_seats_ready">Ready to play</string>
+    <string name="rule_seats_short">Add %1$d more seat(s) to start</string>
+    <string name="rule_start">Start game</string>
+    <string name="rule_start_disabled">Need %1$d more</string>
+    <string name="roles_classic">Classic roles</string>
+    <string name="roles_extended">Extended roles</string>
+    <string name="roles_custom">Custom roles</string>
+    <string name="roles_custom_empty">No custom roles yet.</string>
+    <string name="roles_custom_add">Author a new role</string>
+
+    <!-- ============ Phase timers ============ -->
+    <string name="phase_timers_title">Phase timers</string>
+    <string name="phase_night">Night</string>
+    <string name="phase_day">Day</string>
+    <string name="phase_voting">Voting</string>
+    <string name="phase_other">Phase</string>
+    <string name="phase_timer_seconds">%1$ds</string>
+    <string name="phase_timer_infinite">∞ untimed</string>
+
+    <!-- ============ Host options ============ -->
+    <string name="host_options_title">Host options</string>
+    <string name="host_option_referee">See all roles (Referee mode)</string>
+    <string name="host_option_skip_reveal">Allow players to skip role reveal</string>
+
+    <!-- ============ Role Editor ============ -->
+    <string name="role_editor_unnamed">Unnamed role</string>
+    <string name="role_editor_names">Role name</string>
+    <string name="role_editor_descriptions">Description</string>
+    <string name="role_editor_team">Team alignment</string>
+    <string name="role_editor_icon">Icon</string>
+    <string name="role_editor_save">Save role</string>
+
+    <!-- ============ Lobby ============ -->
+    <string name="lobby_room_code">Room code</string>
+    <string name="lobby_qr">QR code</string>
+    <string name="lobby_copy">Copy</string>
+    <string name="lobby_share">Share</string>
+    <string name="lobby_roles_in_play">Roles in play</string>
+    <string name="lobby_no_roles">No roles configured yet.</string>
+    <string name="lobby_players">Players (%1$d)</string>
+    <string name="lobby_kick">Kick</string>
+    <string name="lobby_kick_title">Remove player?</string>
+    <string name="lobby_kick_body">%1$s will be removed from this game.</string>
+    <string name="lobby_start">Start game</string>
+    <string name="lobby_waiting_for_players">Waiting for %1$d more player(s)</string>
+
+    <!-- ============ Join Room ============ -->
+    <string name="join_tab_code">Enter code</string>
+    <string name="join_tab_qr">Scan QR</string>
+    <string name="join_code_prompt">Enter the six-character code from the host\'s screen.</string>
+    <string name="join_qr_prompt">Point your camera at the host\'s QR code to join.</string>
+    <string name="join_qr_open_scanner">Open scanner</string>
+    <string name="join_action">Join room</string>
+    <string name="camera_perm_rationale">Omerta needs camera access to scan QR codes. Grant permission and try again.</string>
+    <string name="camera_perm_request">Allow Omerta to use the camera so you can scan room QR codes.</string>
+    <string name="camera_perm_grant">Allow camera</string>
+    <!-- ADDED: camera error overlay -->
+    <string name="camera_error_unavailable">Camera unavailable</string>
+
+    <!-- ============ Role Reveal ============ -->
+    <string name="reveal_progress">%1$d of %2$d</string>
+    <string name="reveal_pass_to">Pass the phone to %1$s, then tap the card.</string>
+    <string name="reveal_pass_next">Done — pass to next</string>
+    <string name="reveal_done_all">Begin night</string>
+
+    <!-- ============ Phase Tracker ============ -->
+    <string name="phase_round">Round %1$d</string>
+    <string name="phase_night_sub">The city sleeps. The Mafia wakes.</string>
+    <string name="phase_day_sub">The town stirs. Discuss what happened in the night.</string>
+    <string name="phase_voting_sub">Vote: who do you eliminate?</string>
+    <string name="phase_other_sub">Tap the host controls to advance.</string>
+    <string name="phase_paused">Paused</string>
+    <string name="phase_players_button">%1$d / %2$d alive</string>
+    <string name="phase_host_controls">Host controls</string>
+    <string name="phase_pause">Pause</string>
+    <string name="phase_resume">Resume</string>
+    <string name="phase_skip">Skip phase</string>
+    <string name="phase_end_game">End game</string>
+    <string name="phase_alive_count">%1$d of %2$d still alive</string>
+    <string name="phase_player_eliminated">Eliminated</string>
+    <string name="phase_player_alive">Alive</string>
+    <string name="phase_end_confirm_title">End game now?</string>
+    <string name="phase_end_confirm_body">This will close the round and reveal every player\'s role.</string>
+    <!-- ADDED: back-press confirmation -->
+    <string name="phase_leave_confirm_title">Leave game?</string>
+    <string name="phase_leave_confirm_body">Your game is still in progress. If you leave now, all progress will be lost.</string>
+
+    <!-- ============ End Game ============ -->
+    <string name="endgame_town_wins">Town wins</string>
+    <string name="endgame_mafia_wins">Mafia wins</string>
+    <string name="endgame_neutral_wins">The wildcard wins</string>
+    <string name="endgame_undecided">Game ended</string>
+    <string name="endgame_reveal_title">Roles revealed</string>
+    <string name="endgame_replay">Play again</string>
+    <string name="endgame_home">Back to home</string>
+    <string name="endgame_role_unknown">No role assigned</string>
+    <string name="endgame_stat_rounds">%1$d rounds</string>
+    <string name="endgame_stat_elim">%1$d eliminated</string>
+    <string name="endgame_stat_majority_town">Town majority</string>
+    <string name="endgame_stat_majority_mafia">Mafia majority</string>
+
+    <!-- ============ How to Play — storyboard ============ -->
+    <string name="howto_tab_rules">Game rules</string>
+    <string name="howto_tab_guide">App guide</string>
+    <string name="howto_panel_progress">Panel %1$d of %2$d</string>
+    <string name="howto_skip">Skip</string>
+
+    <string name="story_setup_title">The setup</string>
+    <string name="story_setup_body">Everyone sits in a circle. No one knows who is who.</string>
+    <string name="story_night_title">Night falls</string>
+    <string name="story_night_body">The city sleeps. The Mafia wakes — quietly.</string>
+    <string name="story_mafia_title">Mafia chooses</string>
+    <string name="story_mafia_body">In the dark, the Mafia silently picks tonight\'s target.</string>
+    <string name="story_doctor_title">The Doctor acts</string>
+    <string name="story_doctor_body">The Doctor may save one player — even themselves.</string>
+    <string name="story_sheriff_title">Sheriff investigates</string>
+    <string name="story_sheriff_body">The Sheriff checks one player and learns whose side they\'re on.</string>
+    <string name="story_day_title">Day breaks</string>
+    <string name="story_day_body">The town wakes. Anyone the Mafia took (and the Doctor didn\'t save) is gone.</string>
+    <string name="story_vote_title">The vote</string>
+    <string name="story_vote_body">Discuss. Accuse. Vote — and one player is eliminated.</string>
+    <string name="story_win_title">Win conditions</string>
+    <string name="story_win_body">Town wins when every Mafia is eliminated. Mafia wins when they equal or outnumber the rest.</string>
+    <string name="story_ref_title">Quick reference</string>
+    <string name="story_ref_body">Tap any role icon in the lobby to read its full ability.</string>
+
+    <!-- ============ How to Play — walkthrough ============ -->
+    <string name="guide_create_title">Create a Room</string>
+    <string name="guide_create_body">Tap "Create Room" on the home screen.</string>
+    <string name="guide_mode_title">Choose your mode</string>
+    <string name="guide_mode_body">Local for one shared phone. LAN for one phone per player.</string>
+    <string name="guide_roles_title">Set up roles</string>
+    <string name="guide_roles_body">Tap +/− to pick how many of each role you want in play.</string>
+    <string name="guide_code_title">Share the code</string>
+    <string name="guide_code_body">A six-character room code and matching QR appear in the lobby.</string>
+    <string name="guide_join_title">Players join</string>
+    <string name="guide_join_body">Players enter the code or scan the QR. You\'ll see them appear in the lobby.</string>
+    <string name="guide_reveal_title">The reveal</string>
+    <string name="guide_reveal_body">Each player taps to flip their card and learns their role privately.</string>
+    <string name="guide_track_title">Track the game</string>
+    <string name="guide_track_body">Watch the phase timer count down. Mark eliminations from the player list.</string>
+
+    <!-- FIXED: removed obsolete stub strings (stub_heading, stub_step_4/5/7) -->
+
+    <!-- ============ Generic actions ============ -->
+    <string name="action_back">Back</string>
+    <string name="action_close">Close</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+
+    <!-- ============ Icon content descriptions ============ -->
+    <string name="cd_icon_crown">Host crown</string>
+    <string name="cd_icon_door">Door</string>
+    <string name="cd_icon_book">Open book</string>
+    <string name="cd_icon_settings">Settings gear</string>
+    <string name="cd_icon_back">Back chevron</string>
+    <string name="cd_icon_close">Close cross</string>
+    <string name="cd_icon_language">Globe</string>
+    <string name="cd_icon_theme_light">Sun</string>
+    <string name="cd_icon_theme_dark">Moon</string>
+    <string name="cd_icon_checkmark">Checkmark</string>
+    <string name="cd_icon_warning">Warning</string>
 </resources>
